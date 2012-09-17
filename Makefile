@@ -13,6 +13,7 @@ NO_BUILD= yes
 EXTRACT_SUFX=""
 NO_WRKSUBDIR = yes
 USE_PYTHON= yes
+RUN_DEPENDS= git:${PORTSDIR}/devel/git
 
 MAINTAINER= ian@ubalo.com
 COMMENT= Repo helps to manage many Git repositories.
